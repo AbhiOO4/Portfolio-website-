@@ -1,0 +1,166 @@
+body{
+    font-family: Inter,sans-serif;
+    background-color: rgb(2, 7, 22);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.719);
+    backdrop-filter: blur(5px);;
+}
+
+#mainMenu a{
+    font-weight: 200;
+    font-size: 25px;
+    color: rgb(189, 189, 189);
+    transition: color 250ms;
+}
+
+#mainMenu a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    height: 40px;
+    width: 60px;
+}
+
+#heroSection {
+    margin-top: 42px;
+    background-image: url("https://images.unsplash.com/photo-1710957987034-cea509422852?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+#heroImage {
+    transition: box-shadow 300ms ease-in-out;
+}
+
+#heroImage:hover {
+    box-shadow: 0px 0.2px 100px 0.2px rgba(255, 255, 255, 0.229);
+}
+
+#heroIntro {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 50px 100px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+h1{
+    font-size: 4.5em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    font-style: italic;
+}
+
+#frameworks .withborder {
+    opacity: 60%;
+    transition: opacity 300ms;
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(5px);
+}
+
+#frameworks h3 {
+    font-size: 1.2rem;
+}
+
+#frameworks p {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+#frameworks .withborder:hover {
+    opacity: 100%;
+}
+
+#location {
+    background-color: rgba(255, 255, 255, 0.262);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+    border: solid 1px grey;
+}
+
+#heroIntro p {
+    font-weight: 400;
+}
+
+#heroIntro button {
+    color: white;
+    background-color: rgba(12, 143, 209, 0.436);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgb(145, 191, 219);
+}
+
+#heroIntro button:hover {
+    background-color: rgba(12, 143, 209, 0.647);
+    box-shadow: 1px 2px 20px 1px rgba(255, 255, 255, 0.204);
+}
+
+hr {
+    color: rgba(240, 248, 255, 0.706);
+    margin-inline: 20px;
+}
+
+  
+
+
+
+/* media queries */
+
+
+
+
+
+/* medium */
+@media (max-width : 768px){
+    #mainMenu a {
+        border-bottom: solid rgba(255, 255, 255, 0.072) 1px;
+        transition: border-bottom 200ms color 250ms;
+    }
+    #mainMenu a:hover {
+        border-bottom: solid rgba(255, 255, 255, 0.411) 1px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* small */
+
+@media (max-width : 576px){
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #heroIntro p {
+        font-size: medium;
+    }
+}
+
+@media (max-width : 450px ){
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
