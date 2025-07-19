@@ -79,6 +79,45 @@ h2 {
     opacity: 100%;
 }
 
+
+#education p {
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+
+p.subText {
+    font-size: 1px;
+}
+
+
+p.fst-italic {
+    font-weight: 200;
+    font-size: 0.01rem;
+    margin-top: 30px;
+}
+
+#education .mainCols{
+    border: 1px solid rgba(128, 128, 128, 0.533);
+    margin-inline: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(172, 176, 180, 0.097);
+    transition: background-color 250ms;
+}
+
+#education .mainCols:hover {
+    background-color: rgba(172, 176, 180, 0.125);
+}
+
+#Links .col{
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+
+
 #location {
     background-color: rgba(255, 255, 255, 0.262);
     backdrop-filter: blur(5px);
@@ -105,6 +144,10 @@ h2 {
 hr {
     color: rgba(240, 248, 255, 0.706);
     margin-inline: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
   
