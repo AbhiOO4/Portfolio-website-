@@ -183,6 +183,41 @@ a {
    
 }
 
+#contact button{
+    background-color: rgba(28, 75, 216, 0.512);
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.492);
+    transition: border 250ms;
+}
+
+#contact button:hover {
+    border: 1px solid white;
+}
+
+#footer a {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    transition: color 200ms;
+    width: 100px;
+}
+
+#footer a:hover {
+    color: blue;
+}
+
+#footer {
+    margin-top: 100px;
+}
+
+#contactbg {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.202);
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 20px 1000px 0px rgba(64, 137, 221, 0.535);
+    padding-bottom: 50px;
+}
+
 /* .card {
     width: 100%;
 } */
