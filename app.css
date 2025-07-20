@@ -55,6 +55,7 @@ h2 {
     font-weight: 300;
     letter-spacing: 0.5rem;
     font-style: italic;
+    margin-bottom: 70px;
 }
 
 #frameworks .withborder {
@@ -129,21 +130,22 @@ p.fst-italic {
     font-weight: 400;
 }
 
-#heroIntro button {
+#heroButton {
     color: white;
     background-color: rgba(12, 143, 209, 0.436);
     backdrop-filter: blur(5px);
     border: 1px solid rgb(145, 191, 219);
 }
 
-#heroIntro button:hover {
+#heroButton:hover {
     background-color: rgba(12, 143, 209, 0.647);
     box-shadow: 1px 2px 20px 1px rgba(255, 255, 255, 0.204);
 }
 
 hr {
     color: rgba(240, 248, 255, 0.706);
-    margin-inline: 20px;
+    margin-inline: 50px;
+    margin-block: 50px;
 }
 
 a {
@@ -153,11 +155,13 @@ a {
 #projects .card{
     background-color: rgba(240, 248, 255, 0.103);
     border: 1px solid rgba(128, 128, 128, 0.657);
-    transition: background-color 250ms;
+    transition: 250ms;
+    opacity: 80%;
 }
 
 #projects .card:hover {
     background-color: rgba(240, 248, 255, 0.150);
+    opacity: 100%;
 }
 
 .techUsedCol {
@@ -171,9 +175,10 @@ a {
 
 .techUsed {
     font-size: smaller;
+    font-weight: 300;
     color: rgb(211, 211, 211);
     margin: 0;
-    margin-left: 2px;
+    margin-inline: 1px;
     padding: 0;
    
 }

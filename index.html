@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
                 <a href="#heroSection" class="nav-link mx-4 my-2 my-md-0 ">HOME</a>
                 <a href="#projects" class="nav-link mx-4 my-2 my-md-0 ">PROJECTS</a>
-                <a href="" class="nav-link mx-4 my-2 my-md-0 mb-5">CONTACT</a>
+                <a href="#contact" class="nav-link mx-4 my-2 my-md-0 mb-5">CONTACT</a>
             </div>
         </div>
     </nav>
@@ -54,12 +54,12 @@
                             <p class="lead text-center text-lg-start mt-3">Full Stack Web Developer</p>
                         </div>
                         <div class="row justify-content-center justify-content-lg-start">
-                            <button class="btn w-auto m-2 rounded-5" type="button">Reach out <svg
+                            <a href="#contact" class="btn w-auto m-2 rounded-5" id="heroButton">Reach out <svg
                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
                                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                                </svg></button>
+                                </svg></a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
         <div class="row text-center">
             <h2>Skills</h2>
         </div>
-        <div class="row mt-5 d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
             <div class="withborder col-12 col-md-6 col-xl-4  d-flex justify-content-start align-items-center p-3">
                 <div class="row">
                     <div class="col d-flex justify-content-center align-items-center">
@@ -223,7 +223,7 @@
     <hr>
     <section class="container-fluid p-5 text-white" id="projects">
         <h2 class="text-center">Projects</h2>
-        <div class="row mt-5">
+        <div class="row">
             <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
                 <div class="card text-white">
                     <img src="Done-it.png" class="card-img-top" alt="screenshot of web app">
@@ -231,29 +231,34 @@
                         <h5 class="card-title">Done-it</h5>
                         <p class="card-text">An On Demand service web app that makes it easier to find house hold
                             services. A gig economy web app.</p>
-                        <div class="row">
+                        <div class="row mb-3">
                             <div class="col-2 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Html</p>
                             </div>
                             <div class="col-2 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">CSS</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">JavaScript</p>
                             </div>
-                             <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Tailwind</p>
                             </div>
-                            <div class="col-2 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">React</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Express</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">PostgreSQL</p>
                             </div>
                         </div>
+                        <a href="#" class="btn btn-danger me-2">Live <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
+                            </svg> </a>
                         <a href="#" class="btn btn-secondary">GitHub <svg class="ms-2"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-github" viewBox="0 0 16 16">
@@ -269,29 +274,29 @@
                     <div class="card-body">
                         <h5 class="card-title">FitMadEasy</h5>
                         <p class="card-text">A web app that simplifies staying fit for you.</p>
-                        <div class="row">
+                        <div class="row mb-3">
                             <div class="col-2 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Html</p>
                             </div>
                             <div class="col-2 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">CSS</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">JavaScript</p>
                             </div>
-                             <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Tailwind</p>
                             </div>
-                            <div class="col-2 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">React</p>
                             </div>
                         </div>
-                        <a href="#" class="btn btn-danger">Live <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        <a href="#" class="btn btn-danger me-2">Live <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                 height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
                                 <path
                                     d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
                             </svg> </a>
-                        <a href="#" class="btn btn-secondary ms-2">GitHub <svg class="ms-2"
+                        <a href="#" class="btn btn-secondary">GitHub <svg class="ms-2"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-github" viewBox="0 0 16 16">
                                 <path
@@ -307,29 +312,34 @@
                         <h5 class="card-title">Done-it</h5>
                         <p class="card-text">An On Demand service web app that makes it easier to find house hold
                             services. A gig economy web app.</p>
-                        <div class="row">
+                        <div class="row mb-3">
                             <div class="col-2 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Html</p>
                             </div>
                             <div class="col-2 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">CSS</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">JavaScript</p>
                             </div>
-                             <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Tailwind</p>
                             </div>
-                            <div class="col-2 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">React</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">Express</p>
                             </div>
-                            <div class="col-3 techUsedCol d-flex justify-content-start">
+                            <div class="col-4 col-sm-3 techUsedCol d-flex justify-content-start">
                                 <p class="techUsed">PostgreSQL</p>
                             </div>
                         </div>
+                        <a href="#" class="btn btn-danger me-2">Live <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-broadcast" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0" />
+                            </svg> </a>
                         <a href="#" class="btn btn-secondary">GitHub <svg class="ms-2"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-github" viewBox="0 0 16 16">
@@ -341,6 +351,41 @@
             </div>
         </div>
     </section>
+
+    <hr>
+
+    <section class="container-fluid p-5 text-white" id="contact">
+        <h2 class="text-center">Contact</h2>
+        <div class="row">
+            <div class="col-0 col-sm-2"></div>
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    <div class="mb-3 col-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John">
+                    </div>
+                    <div class="mb-3 col-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mt-5 d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary px-4">Submit</button>
+                </div>
+            </div>
+            <div class="col-0 col-sm-2"></div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
