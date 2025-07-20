@@ -54,7 +54,7 @@ h2 {
     font-size: 3rem;
     font-weight: 300;
     letter-spacing: 0.5rem;
-    /* font-style: italic; */
+    font-style: italic;
 }
 
 #frameworks .withborder {
@@ -153,12 +153,34 @@ a {
 #projects .card{
     background-color: rgba(240, 248, 255, 0.103);
     border: 1px solid rgba(128, 128, 128, 0.657);
+    transition: background-color 250ms;
 }
 
 #projects .card:hover {
     background-color: rgba(240, 248, 255, 0.150);
 }
 
+.techUsedCol {
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgba(244, 250, 255, 0.082);
+
+}
+
+.techUsed {
+    font-size: smaller;
+    color: rgb(211, 211, 211);
+    margin: 0;
+    margin-left: 2px;
+    padding: 0;
+   
+}
+
+/* .card {
+    width: 100%;
+} */
 
   
 
