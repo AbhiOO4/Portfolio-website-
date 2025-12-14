@@ -33,11 +33,12 @@ nav {
 
 #heroImage {
     transition: box-shadow 300ms ease-in-out;
+    border: 10px solid rgb(2, 7, 22);;
 }
 
-#heroImage:hover {
+/* #heroImage:hover {
     box-shadow: 0px 0.2px 100px 0.2px rgba(255, 255, 255, 0.229);
-}
+} */
 
 #heroIntro {
     background-color: rgba(0, 0, 0, 0.5);
@@ -112,12 +113,17 @@ p.fst-italic {
     background-color: rgba(172, 176, 180, 0.125);
 }
 
-#Links .col{
-    border: 1px solid grey;
-    margin: 10px;
-    border-radius: 20px;
-    padding: 12px;
+#Links .links{
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    padding: 10px;
+    border-radius: 3rem;
+    transition: background-color 350ms;
 }
+
+#Links .links:hover{
+    background-color: rgb(240, 248, 255);
+}
+
 
 
 #location {
